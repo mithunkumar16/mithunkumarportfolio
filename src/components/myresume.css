@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.timeline .card {
+  margin-bottom: 1rem;
+  background: #0c0c0c;
+  color: rgba(0,255,255);
+  box-shadow: 0 0 10px rgba(0,255,255);
+}
+
+.timeline .card-title {
+  color: rgba(0,255,255);
+}
+.timeline .card-text {
+  color: #fff;
+}
+
+.timeline .text-muted {
+  color: #00ffcc !important;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .timeline .card {
+    margin-bottom: 2rem;
+  }
+}
